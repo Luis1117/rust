@@ -2,9 +2,14 @@
 name = "comienzo"
 version = "0.1.0"
 edition = "2021"
+
 [[bin]]
 name = "new"
 path = "src/main.rs"
+
+[[bin]]
+name = "new_firts_program" 
+path = "src/second.rs"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
