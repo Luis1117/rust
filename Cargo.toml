@@ -2,7 +2,13 @@
 name = "comienzo"
 version = "0.1.0"
 edition = "2021"
+[[bin]]
+name = "new"
+path = "src/main.rs"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+plotters = "0.3.4"
+csv = "1.1"
+fast-float = "0.2"
